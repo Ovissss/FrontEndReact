@@ -19,9 +19,8 @@ const page = (
 
 function App() {
   return (
-    <div className="App">
-
-  {nav}    
+    <div className="App">  
+  {page1} 
   {navbar}
       <Test></Test>
       <List /> 
@@ -49,16 +48,16 @@ const navbar = (
   </nav>
 )
 
-
-
-const nav = (
-  <nav>
-<h1>Ovi </h1>
-<ul>
-  <li>Pricing</li>
-  <li>About</li>
-  <li>Contact</li>
-</ul>
-  </nav>
+const page1 =(
+<div>
+<h1>My awesome website in React</h1>
+<h3>Reasons I love React</h3>
+<ol>
+  <l1>It's Composable</l1>
+  <l1>It's Declerative</l1>
+  <l1>It's a hirible skill</l1>
+  <l1>It's actevily maintained by skilled people</l1>
+</ol>
+</div>
 
 )
