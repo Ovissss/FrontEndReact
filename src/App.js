@@ -17,19 +17,9 @@ const page = (
 
 )
 
-function App() {
+function TemporaryName() {
   return (
-    <div className="App">  
- {page2}
-  
-
-    </div>
-  );
-}
-
-export default App;
-const page2 = (
- <div>
+    <div>
    <img src="./logo192.png"/>
    <h1> Fun facts about React</h1>
     <ul>
@@ -40,7 +30,10 @@ const page2 = (
       <li>Powers thousands of enterprise apps, including mobile apps</li>
     </ul>
 
- </div>
+    </div>
 
+  );
+}
 
-)
+export default TemporaryName;
+
