@@ -20,15 +20,7 @@ const page = (
 function App() {
   return (
     <div className="App">  
-  {page1} 
-  {navbar}
-      <Test></Test>
-      <List /> 
-      <Select options={
-        [{label: "pirmas"}, {label: "antras"}]
-      } />
-      <DatePicker />
-        <h1>I'm learning React !!</h1>
+ {page2}
   
 
     </div>
@@ -36,28 +28,19 @@ function App() {
 }
 
 export default App;
+const page2 = (
+ <div>
+   <img src="./logo192.png"/>
+   <h1> Fun facts about React</h1>
+    <ul>
+      <li>Was first released in 2013</li>
+      <li>Was originaly created by Jordan Walke</li>
+      <li>Has well over 100k stars on Github</li>
+      <li>Is maintained by Facebook</li>
+      <li>Powers thousands of enterprise apps, including mobile apps</li>
+    </ul>
 
-const navbar = (
-  <nav>
-      <h1>Bob's Bistro</h1>
-      <ul>
-          <li>Menu</li>
-          <li>About</li>
-          <li>Contact</li>
-      </ul>
-  </nav>
-)
+ </div>
 
-const page1 =(
-<div>
-<h1>My awesome website in React</h1>
-<h3>Reasons I love React</h3>
-<ol>
-  <l1>It's Composable</l1>
-  <l1>It's Declerative</l1>
-  <l1>It's a hirible skill</l1>
-  <l1>It's actevily maintained by skilled people</l1>
-</ol>
-</div>
 
 )
