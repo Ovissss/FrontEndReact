@@ -20,22 +20,44 @@ const page = (
 function Page() {
   return (
     <div>
-      <header>
+      <Header/>
+      <H1/>
+      <Lo/>
+      <Footer/>
+    </div>
+  )
+}
+
+
+function Header(){
+  return(
+    <header>
       <nav><img src = "./logo192.png" width={150}/> </nav>
       </header>
-        <h1>Reasons I'm excited to learn React</h1>
-      <ol>
+  )
+}
+function Footer(){
+  return(
+    <footer>
+        <small>© 2022 Graus development. All rights reserved. </small>
+        </footer>
+  )
+}
+function Lo(){
+  return(
+<ol>
           <li>It's a popular library, so I'll be 
           able to fit in with the cool kids!</li>
           <li>I'm more likely to get a job as a developer
           if I know React</li>
       </ol>
-      <footer>
-        <small>© 2022 Graus development. All rights reserved. </small>
-        </footer>
-      </div>
   )
 }
-
+function H1(){
+  return(
+<h1>Reasons I'm excited to learn React</h1>    
+  )
+}
 export default Page;
+
 
