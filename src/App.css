@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+.nav-items{
+  list-style: none;
+  display: flex;
+  margin: 30px;
+  gap: 50px;
+  position:absolute;
+   right:10px;
+   top  :30px;
+   font-size: large;
+   font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.header{
+  display: flex;
+}
+.logo{
+  width: 120px;
+  height: 120px;
+}

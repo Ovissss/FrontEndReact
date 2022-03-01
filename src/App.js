@@ -5,6 +5,10 @@ import List from './components/List';
 import Select from 'react-select';
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
+import { ClassNames } from '@emotion/react';
+import Header from "./Header"
+import Lo from "./Main"
+import Footer from "./Footer"
 
 
 
@@ -25,32 +29,6 @@ function Page() {
       <Lo/>
       <Footer/>
     </div>
-  )
-}
-
-
-function Header(){
-  return(
-    <header>
-      <nav><img src = "./logo192.png" width={150}/> </nav>
-      </header>
-  )
-}
-function Footer(){
-  return(
-    <footer>
-        <small>© 2022 Graus development. All rights reserved. </small>
-        </footer>
-  )
-}
-function Lo(){
-  return(
-<ol>
-          <li>It's a popular library, so I'll be 
-          able to fit in with the cool kids!</li>
-          <li>I'm more likely to get a job as a developer
-          if I know React</li>
-      </ol>
   )
 }
 function H1(){
